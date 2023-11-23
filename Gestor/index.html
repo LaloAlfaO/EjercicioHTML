@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestor de Clientes</title>
+</head>
+<body>
+    <h1>Registro de Clientes</h1>
+    <form action="procesar.php" method="post">
+        <label for="codigo_gestion">Código de Gestión:</label>
+        <input type="text" name="codigo_gestion" id="codigo_gestion" required><br><br>
+
+        <label for="nombre_sitio">Nombre del Sitio:</label>
+        <input type="text" name="nombre_sitio" id="nombre_sitio"><br><br>
+
+        <!-- Otros campos (teléfono, correo electrónico, etc.) -->
+
+        <label for="avance">Historial de Avance:</label>
+        <textarea name="avance" id="avance" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="tipo_contacto">Tipo de Contacto:</label>
+        <select name="tipo_contacto" id="tipo_contacto">
+            <option value="Negociando">Negociando</option>
+            <option value="Finanzas">Finanzas</option>
+            <option value="Estudiando Caso">Estudiando Caso</option>
+            <option value="Logrado">Logrado</option>
+            <option value="Rechazado">Rechazado</option>
+        </select><br><br>
+
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>

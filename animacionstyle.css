@@ -1,0 +1,23 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.box:hover{
+    animation-name: cuadrado-animado ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes cuadrado-animado {
+        0% {
+        background: blue;
+    }
+     50% {
+        background: pink;
+     }
+     100% {
+        background: green;
+     }
+}

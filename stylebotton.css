@@ -1,0 +1,40 @@
+html,
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.button-animation {
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+.button-animation:active {
+    transform: scale(.9);
+}
+
+.button-animation:hover {
+    animation: button-animation 0.9s both;
+
+}
+
+@keyframes button-animation {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1)
+    }
+
+    100% {
+        transform: scale3d(0.75, 0.95,);
+    }
+}
