@@ -90,7 +90,6 @@ h1 {
     font-size: 20px;
     color: blue;
     text-align: center;
-    
 }
 
 footer {
@@ -98,9 +97,6 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 16px;
-    
-
-
 }
 
 .iconos {
@@ -108,8 +104,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-
-
 }
 
 .iconos a{
