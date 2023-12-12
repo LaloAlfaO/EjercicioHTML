@@ -101,7 +101,7 @@ footer {
 
 .iconos a{
     text-decoration: none;
-    color: #blue;
+    color: blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -118,8 +118,16 @@ footer {
     margin-top: 5px;
 }
 
+.iconos-encabezado
+{
+    color: #f4f4f4;
+    text-decoration: none;
+    justify-content: space-between;
+}
 .producto-3 { order: 1;}
 .producto-6 { order: 2;}
 .producto-4 { order: 3;}
-.producto-1 { order 4;}
+.producto-1 { order: 5;}
+.producto-2 { order: 6;}
+.producto-5 { order: 4;}
 
