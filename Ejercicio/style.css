@@ -129,15 +129,24 @@ footer {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    color: yellow;
 
 }
+
+.iconos-encabezado
+{
+    display: flex;
+}
+
+a
+{
+    color: white;
+}
+
 .iconos-encabezado a
 {
     color: white;
     text-decoration: none;
     align-items: center;
-    display: flexbox;
 
 }
 
@@ -147,4 +156,3 @@ footer {
 .producto-1 { order: 5;}
 .producto-2 { order: 6;}
 .producto-5 { order: 4;}
-
